@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Menu — Àṣà Kitchen</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="pre-logo">ÀṢÀ</div>
+      <div class="pre-tagline">Lagos · Nigerian Kitchen</div>
+      <div class="pre-bar"><div class="pre-bar-fill"></div></div>
+    </div>
+    <nav class="navbar">
+      <a href="index.html" class="nav-brand">ÀṢÀ <span>Kitchen</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="nav-reserve">
+          <a href="reservations.html">Reserve a Table</a>
+        </li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <div class="page-banner">
+      <div class="page-banner-content">
+        <div class="section-label">What We Serve</div>
+        <h1>Our Menu</h1>
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <i class="fa fa-chevron-right" style="font-size: 0.6rem"></i>
+          <span>Menu</span>
+        </div>
+      </div>
+    </div>
+    <div class="marquee-strip">
+      <div class="marquee-track">
+        <span>Party Jollof</span><span class="sep">✦</span
+        ><span>Suya Platter</span><span class="sep">✦</span
+        ><span>Egusi Soup</span><span class="sep">✦</span
+        ><span>Pounded Yam</span><span class="sep">✦</span
+        ><span>Pepper Soup</span><span class="sep">✦</span><span>Asun</span
+        ><span class="sep">✦</span><span>Owambe Catering</span
+        ><span class="sep">✦</span><span>Party Jollof</span
+        ><span class="sep">✦</span><span>Suya Platter</span
+        ><span class="sep">✦</span><span>Egusi Soup</span
+        ><span class="sep">✦</span><span>Pounded Yam</span
+        ><span class="sep">✦</span><span>Pepper Soup</span
+        ><span class="sep">✦</span><span>Asun</span><span class="sep">✦</span
+        ><span>Owambe Catering</span><span class="sep">✦</span>
+      </div>
+    </div>
+
+    <section class="menu-section">
+      <div class="menu-filter reveal">
+        <button class="filter-btn active" data-cat="all">All</button>
+        <button class="filter-btn" data-cat="rice">Rice & Swallow</button>
+        <button class="filter-btn" data-cat="soups">Soups</button>
+        <button class="filter-btn" data-cat="grill">Grill & Suya</button>
+        <button class="filter-btn" data-cat="small">Small Chops</button>
+        <button class="filter-btn" data-cat="drinks">Drinks</button>
+      </div>
+
+      <div class="menu-section-block reveal" data-cat="rice">
+        <div class="menu-category-title">Rice & Swallow</div>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/party-jollof.jpg"
+                alt="Jollof"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-badge badge-popular">🔥 Best Seller</div>
+              <div class="menu-card-top">
+                <div class="menu-card-name">Party Jollof Rice</div>
+                <div class="menu-card-price">₦3,500</div>
+              </div>
+              <div class="menu-card-desc">
+                Smoky firewood jollof. Served with fried plantain and protein of
+                choice.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/nigerian-fried-rice.webp"
+                alt="Fried Rice"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <div class="menu-card-name">Nigerian Fried Rice</div>
+                <div class="menu-card-price">₦3,200</div>
+              </div>
+              <div class="menu-card-desc">
+                Loaded with mixed vegetables, liver, and prawns. Served with
+                coleslaw.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/pounded-yam.png"
+                alt="Pounded Yam"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-badge badge-popular">⭐ Chef's Pick</div>
+              <div class="menu-card-top">
+                <div class="menu-card-name">Pounded Yam</div>
+                <div class="menu-card-price">₦1,800</div>
+              </div>
+              <div class="menu-card-desc">
+                Hand-pounded, smooth, and stretchy. Served with any soup of your
+                choice.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/amala.jpg"
+                alt="Amala"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <div class="menu-card-name">Àmàlà</div>
+                <div class="menu-card-price">₦1,600</div>
+              </div>
+              <div class="menu-card-desc">
+                Dark yam flour swallow. Best with ewedu and gbegiri.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-section-block reveal" data-cat="soups">
+        <div class="menu-category-title">Soups</div>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/egusi-soup.webp"
+                alt="Egusi"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-badge badge-popular">🍲 Must Try</div>
+              <div class="menu-card-top">
+                <div class="menu-card-name">Egusi Soup</div>
+                <div class="menu-card-price">₦4,000</div>
+              </div>
+              <div class="menu-card-desc">
+                Ground melon seeds cooked in palm oil with assorted meat,
+                stockfish, and ugu leaves.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/banga-soup.jpg"
+                alt="Banga"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <div class="menu-card-name">Banga Soup</div>
+                <div class="menu-card-price">₦4,500</div>
+              </div>
+              <div class="menu-card-desc">
+                Rich palm fruit soup from the Delta region. Slow-cooked with
+                catfish and dry fish.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/pepper-soup-goat-meat.webp"
+                alt="Pepper Soup"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-badge badge-spicy">🌶 Spicy</div>
+              <div class="menu-card-top">
+                <div class="menu-card-name">Goat Pepper Soup</div>
+                <div class="menu-card-price">₦5,200</div>
+              </div>
+              <div class="menu-card-desc">
+                Bold, spiced broth with tender goat meat. A Lagos classic. Bring
+                water.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/ofe-oha-soup.jpg"
+                alt="Ofe Oha"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <div class="menu-card-name">Ofe Oha</div>
+                <div class="menu-card-price">₦4,200</div>
+              </div>
+              <div class="menu-card-desc">
+                Traditional Igbo soup with oha leaves, cocoyam, and assorted
+                meat.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-section-block reveal" data-cat="grill">
+        <div class="menu-category-title">Grill & Suya</div>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/beef-platter.jpg"
+                alt="Suya"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-badge badge-popular">🔥 No. 1</div>
+              <div class="menu-card-top">
+                <div class="menu-card-name">Beef Suya Platter</div>
+                <div class="menu-card-price">₦4,200</div>
+              </div>
+              <div class="menu-card-desc">
+                Classic yaji-spiced beef suya. Raw onion, tomato, kuli-kuli.
+                Cooked to order.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/suya-platter.jpg"
+                alt="Asun"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-badge badge-spicy">🌶 Spicy</div>
+              <div class="menu-card-top">
+                <div class="menu-card-name">Asun (Peppered Goat)</div>
+                <div class="menu-card-price">₦5,500</div>
+              </div>
+              <div class="menu-card-desc">
+                Smoked and peppered goat meat. Party favourite. Pair with cold
+                drinks.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/grilled-chicken.jpg"
+                alt="Chicken"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <div class="menu-card-name">Grilled Whole Chicken</div>
+                <div class="menu-card-price">₦8,500</div>
+              </div>
+              <div class="menu-card-desc">
+                Marinated overnight, slow-grilled over wood fire. Served with
+                jollof rice.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-section-block reveal" data-cat="small">
+        <div class="menu-category-title">Small Chops</div>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/puff-puff.webp"
+                alt="Puff Puff"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-badge badge-new">✨ New</div>
+              <div class="menu-card-top">
+                <div class="menu-card-name">Puff Puff (12 pcs)</div>
+                <div class="menu-card-price">₦1,200</div>
+              </div>
+              <div class="menu-card-desc">
+                Soft, fluffy deep-fried dough. Sweet, warm, irresistible.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/spring-roll.jpg"
+                alt="Spring Rolls"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <div class="menu-card-name">Spring Rolls (6 pcs)</div>
+                <div class="menu-card-price">₦2,500</div>
+              </div>
+              <div class="menu-card-desc">
+                Crispy rolls stuffed with spiced vegetables and minced beef.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/Akara.webp"
+                alt="Akara"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <div class="menu-card-name">Akara (Bean Cake)</div>
+                <div class="menu-card-price">₦1,500</div>
+              </div>
+              <div class="menu-card-desc">
+                Freshly fried bean cakes seasoned with pepper and onion. Classic
+                Nigerian street snack.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-section-block reveal" data-cat="drinks">
+        <div class="menu-category-title">Drinks</div>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/zobo-drink.jpg"
+                alt="Zobo"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-badge badge-popular">❤️ Favourite</div>
+              <div class="menu-card-top">
+                <div class="menu-card-name">Zobo Drink (500ml)</div>
+                <div class="menu-card-price">₦800</div>
+              </div>
+              <div class="menu-card-desc">
+                Hibiscus flower drink, lightly spiced and chilled. Made in-house
+                daily.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/kunu-aya.webp"
+                alt="Kunu"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <div class="menu-card-name">Kunu Aya</div>
+                <div class="menu-card-price">₦900</div>
+              </div>
+              <div class="menu-card-desc">
+                Tiger nut milk drink, creamy and naturally sweet. Dairy-free.
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img
+                src="./img/palm-wine.jpg"
+                alt="Palm Wine"
+              />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-badge badge-new">✨ Weekend Only</div>
+              <div class="menu-card-top">
+                <div class="menu-card-name">Palm Wine</div>
+                <div class="menu-card-price">₦1,500</div>
+              </div>
+              <div class="menu-card-desc">
+                Fresh palm wine tapped weekly. Available Friday–Sunday only.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-name">ÀṢÀ Kitchen</div>
+          <div class="footer-brand-tag">
+            Rooted in Culture · Served with Pride
+          </div>
+          <p class="footer-brand-desc">
+            Nigerian food done properly. No shortcuts. No apologies.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="fsocial"><i class="fab fa-instagram"></i></a
+            ><a href="#" class="fsocial"><i class="fab fa-facebook-f"></i></a
+            ><a href="#" class="fsocial"><i class="fab fa-twitter"></i></a
+            ><a href="https://wa.me/2348132186332" class="fsocial"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <p>Mon–Thu: 12pm – 10pm</p>
+          <p>Fri: 12pm – 11pm</p>
+          <p>Sat: 11am – 11pm</p>
+          <p>Sun: 11am – 9pm</p>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>14 Admiralty Way, Lekki Phase 1</p>
+          <a href="tel:+2348132186332">+234 813 218 6332</a
+          ><a href="mailto:hello@asakitchen.ng">hello@asakitchen.ng</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Àṣà Kitchen.</p>
+        <p>Built by <a href="#">MiracleDev Studio</a></p>
+      </div>
+    </footer>
+    <a href="#" class="back-top" id="backTop"><i class="fa fa-arrow-up"></i></a>
+    <script src="js/main.js"></script>
+  </body>
+</html>
